@@ -1,0 +1,177 @@
+.aboutBack {
+  background: url("../images/second.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.2);
+}
+
+.about__me {
+  font-family: Iskry regular;
+  color: white;
+  font-size: 80px;
+}
+
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.about__me-text {
+  width: 700px;
+  color: white;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2em;
+  font-weight: 100;
+  margin-bottom: 20px;
+  font-family: Helvetica;
+}
+
+.about__image__flexible {
+  display: flex;
+  align-items: flex-end;
+  box-shadow: inset 0 0 0 2000px #dedcd1;
+  opacity: 0.5;
+}
+
+.about__image {
+  width: 400px;
+  opacity: 0.8;
+}
+
+.about__text__field {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.about__first-game {
+  color: rgb(255, 255, 255);
+  height: 50px;
+  font-size: 35px;
+  font-family: "Iskry Regular", serif;
+}
+
+.about__description {
+  color: rgb(255, 255, 255);
+  height: 200px;
+  width: 175px;
+  font-size: 20px;
+  line-height: 150%;
+  font-style: Helvetica;
+}
+
+.testeeee {
+  display: flex;
+}
+
+.columnTest {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__image__fix {
+  max-width: 200px;
+  max-height: 500px;
+  margin-left: 50px;
+  margin-right: 25px;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.about__fix {
+  width: 20px;
+  margin-bottom: 30px;
+}
+
+/* Notebooks */
+@media screen and (min-width: 1360px) and (max-width: 1366px) {
+ .testeeee {
+     flex-wrap: wrap;
+ }
+ .aboutBack {
+    height: 140vh;
+  }
+  .about__image__fix {
+    max-width: 200px;
+    height: 270px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+  }
+  .about__description {
+    font-size: 17px;
+  }
+  .about__container {
+      height: 34vh;
+  }
+}
+
+/* Samsumg */
+@media screen and (min-width: 360px) and (max-width: 414px) {
+  .aboutBack {
+    height: 230vh;
+  }
+  .about__me {
+    font-size: 60px;
+  }
+  .about__image__fix {
+    max-width: 130px;
+    height: 270px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .testeeee {
+    flex-wrap: wrap;
+  }
+  .about__description {
+    font-size: 16px;
+  }
+}
+
+/* Iphones */
+
+@media screen and (min-width: 500px) and (max-width: 766px) {
+  .testeeee {
+    flex-wrap: wrap;
+  }
+  .about__image__fix {
+    max-width: 170px;
+    height: 270px;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  .about__me {
+    font-size: 60px;
+  }
+  .aboutBack {
+    height: 200vh;
+  }
+
+  .about__description {
+    font-size: 16px;
+  }
+}
+
+/* Iphone 12 PRO */
+@media screen and (min-width: 390px) and (max-width: 766px) {
+    .aboutBack {
+        height: 215vh;
+      }
+    
+}
+
+/* Iphone SE */
+
+@media screen and (min-width: 375px) and (max-width: 376px) {
+    .aboutBack {
+        height: 260vh;
+      }
+    
+}

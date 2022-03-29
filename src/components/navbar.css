@@ -1,0 +1,52 @@
+.navbar__section {
+    font-family: Iskry;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+}
+
+@media screen and (max-width: 766px) {
+   .navbar__section {
+      font-size: 15px;
+      margin-left: 15px;
+   }
+   .navbar__container {
+    justify-content: space-evenly;
+    gap: 20px;
+    max-width: 400px;
+   }
+  }
+
+
+  @media screen and (max-width: 912px) and (min-width: 900px ) {
+    .navbar__section {
+        font-size: 3vh;
+    }
+   }
+
+   @media screen and (max-width: 280px) and (min-width: 200px ) {
+    .navbar__section {
+        display: inline !important;
+        z-index: 9999 !important;
+        left: 0 !important;
+        position: absolute;
+     }
+   }
+ 
+
+
+
+  

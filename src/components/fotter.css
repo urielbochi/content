@@ -1,0 +1,33 @@
+.footer__content {
+    color: white;
+    text-align: left;
+    font-family: Iskry;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 280px) {
+    .footer__content {
+        text-align: center;
+        font-size: 4vh;
+        max-width: 250px;
+    }
+   }
+
+@media screen and (max-width: 766px) and (min-width: 300px) {
+    .footer__content {
+        text-align: center;
+        font-size: 5vh;
+    }
+   }
+
+
+   @media screen and (max-width: 1024px) and (min-width: 1023px) {
+    .footer__content {
+        text-align: center;
+        font-size: 6vh;
+        margin-top: -5vh;
+    }
+   }
