@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/content/static/css/main.c58aa256.css",
+    "main.css": "/content/static/css/main.ee2f724d.css",
     "main.js": "/content/static/js/main.6521d1fd.js",
     "static/js/787.35fe7324.chunk.js": "/content/static/js/787.35fe7324.chunk.js",
     "static/media/five.png": "/content/static/media/five.bea25c9f2b795d5da7ae.png",
@@ -8,14 +8,16 @@
     "static/media/second.jpg": "/content/static/media/second.b0391975cece5e5d425f.jpg",
     "static/media/four.png": "/content/static/media/four.dd57a9994e33364238f5.png",
     "static/media/me.jpeg": "/content/static/media/me.1a943227d2c52dd9be6e.jpeg",
+    "static/media/Iskry-Regular.otf": "/content/static/media/Iskry-Regular.d9df9430924e8524e4e1.otf",
+    "static/media/Iskry-Bold.otf": "/content/static/media/Iskry-Bold.dff55a8b38ea6d2efb2c.otf",
     "static/media/firstback.jpg": "/content/static/media/firstback.0157fed89e7532bf72a5.jpg",
     "index.html": "/content/index.html",
-    "main.c58aa256.css.map": "/content/static/css/main.c58aa256.css.map",
+    "main.ee2f724d.css.map": "/content/static/css/main.ee2f724d.css.map",
     "main.6521d1fd.js.map": "/content/static/js/main.6521d1fd.js.map",
     "787.35fe7324.chunk.js.map": "/content/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c58aa256.css",
+    "static/css/main.ee2f724d.css",
     "static/js/main.6521d1fd.js"
   ]
 }
