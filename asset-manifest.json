@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/content/static/css/main.d2746106.css",
+    "main.css": "/content/static/css/main.f3c3837b.css",
     "main.js": "/content/static/js/main.6521d1fd.js",
     "static/js/787.35fe7324.chunk.js": "/content/static/js/787.35fe7324.chunk.js",
     "static/media/five.png": "/content/static/media/five.bea25c9f2b795d5da7ae.png",
@@ -12,12 +12,12 @@
     "static/media/Iskry-Bold.otf": "/content/static/media/Iskry-Bold.dff55a8b38ea6d2efb2c.otf",
     "static/media/firstback.jpg": "/content/static/media/firstback.0157fed89e7532bf72a5.jpg",
     "index.html": "/content/index.html",
-    "main.d2746106.css.map": "/content/static/css/main.d2746106.css.map",
+    "main.f3c3837b.css.map": "/content/static/css/main.f3c3837b.css.map",
     "main.6521d1fd.js.map": "/content/static/js/main.6521d1fd.js.map",
     "787.35fe7324.chunk.js.map": "/content/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2746106.css",
+    "static/css/main.f3c3837b.css",
     "static/js/main.6521d1fd.js"
   ]
 }
