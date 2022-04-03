@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/content/static/css/main.e9f14373.css",
-    "main.js": "/content/static/js/main.4da1b1a1.js",
+    "main.css": "/content/static/css/main.18657b45.css",
+    "main.js": "/content/static/js/main.f72c4c70.js",
     "static/js/787.35fe7324.chunk.js": "/content/static/js/787.35fe7324.chunk.js",
-    "static/media/juju.png": "/content/static/media/juju.33a9a69a1e8a46f11523.png",
-    "static/media/ygona.png": "/content/static/media/ygona.e990fb29020330f0eb1c.png",
+    "static/media/valeria.jpg": "/content/static/media/valeria.6968e0acfe117576511e.jpg",
     "static/media/me.jpeg": "/content/static/media/me.1a943227d2c52dd9be6e.jpeg",
+    "static/media/juju.jpeg": "/content/static/media/juju.d49b1a661e9c82aa4959.jpeg",
     "static/media/Iskry-Regular.otf": "/content/static/media/Iskry-Regular.d9df9430924e8524e4e1.otf",
     "static/media/third.png": "/content/static/media/third.a25b76f86708aeb692ff.png",
+    "static/media/pixel.jpeg": "/content/static/media/pixel.c3706faf89a49d67d8be.jpeg",
     "static/media/Sohne-Extraleicht.otf": "/content/static/media/Sohne-Extraleicht.fbd9947add311e62d453.otf",
     "static/media/centaur-mt-std.otf": "/content/static/media/centaur-mt-std.1ea126bbfb9b94a5b360.otf",
     "static/media/four.png": "/content/static/media/four.4e34017ebb24429210b4.png",
     "static/media/firstback.jpg": "/content/static/media/firstback.0157fed89e7532bf72a5.jpg",
-    "static/media/valeria.jpg": "/content/static/media/valeria.b9e78731ba7114f87853.jpg",
     "static/media/five.png": "/content/static/media/five.daa6437bc84b3c8dc70d.png",
+    "static/media/ygona.png": "/content/static/media/ygona.17c923eb47c32a8ed9dc.png",
+    "static/media/portf.png": "/content/static/media/portf.349de0111280527edc08.png",
     "static/media/logo.png": "/content/static/media/logo.51537010b7221b04840e.png",
     "index.html": "/content/index.html",
-    "main.e9f14373.css.map": "/content/static/css/main.e9f14373.css.map",
-    "main.4da1b1a1.js.map": "/content/static/js/main.4da1b1a1.js.map",
+    "main.18657b45.css.map": "/content/static/css/main.18657b45.css.map",
+    "main.f72c4c70.js.map": "/content/static/js/main.f72c4c70.js.map",
     "787.35fe7324.chunk.js.map": "/content/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9f14373.css",
-    "static/js/main.4da1b1a1.js"
+    "static/css/main.18657b45.css",
+    "static/js/main.f72c4c70.js"
   ]
 }
