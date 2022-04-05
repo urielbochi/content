@@ -1,29 +1,41 @@
 {
   "files": {
-    "main.css": "/content/static/css/main.24dfb5c8.css",
-    "main.js": "/content/static/js/main.57ee2687.js",
+    "main.css": "/content/static/css/main.c019723f.css",
+    "main.js": "/content/static/js/main.752923f9.js",
     "static/js/787.35fe7324.chunk.js": "/content/static/js/787.35fe7324.chunk.js",
+    "static/media/recipesLogin.png": "/content/static/media/recipesLogin.55d5ba711eb12f259a45.png",
+    "static/media/recipesProfile.png": "/content/static/media/recipesProfile.ce461ed18241447f8403.png",
+    "static/media/recipesMain.png": "/content/static/media/recipesMain.9d8f9128636c309c3b64.png",
+    "static/media/solarSystem.png": "/content/static/media/solarSystem.4ae60415c7f0cc4c524d.png",
+    "static/media/solarSystemEarth.png": "/content/static/media/solarSystemEarth.4b9c153b08efeeb4f597.png",
     "static/media/valeria.jpg": "/content/static/media/valeria.6968e0acfe117576511e.jpg",
+    "static/media/myPortfolioProjects.png": "/content/static/media/myPortfolioProjects.2e88e162d1ca8d1992ea.png",
+    "static/media/myPortfolioAbout.png": "/content/static/media/myPortfolioAbout.8294e9b8a0cc564d0e67.png",
+    "static/media/pixelColored.png": "/content/static/media/pixelColored.0ca35ae9e1a64078b0e7.png",
+    "static/media/pixelMain.png": "/content/static/media/pixelMain.d677942cca946432aee4.png",
+    "static/media/shoppingCartList.png": "/content/static/media/shoppingCartList.986c51de910e6b56c44b.png",
+    "static/media/ShoppingCard.png": "/content/static/media/ShoppingCard.7ce83c8e3df9b86cf338.png",
+    "static/media/pixel.jpeg": "/content/static/media/pixel.c3ff2feb14a5901dc110.jpeg",
     "static/media/me.jpeg": "/content/static/media/me.1a943227d2c52dd9be6e.jpeg",
     "static/media/juju.jpeg": "/content/static/media/juju.d49b1a661e9c82aa4959.jpeg",
     "static/media/Iskry-Regular.otf": "/content/static/media/Iskry-Regular.d9df9430924e8524e4e1.otf",
     "static/media/third.png": "/content/static/media/third.a25b76f86708aeb692ff.png",
-    "static/media/pixel.jpeg": "/content/static/media/pixel.c3706faf89a49d67d8be.jpeg",
     "static/media/Sohne-Extraleicht.otf": "/content/static/media/Sohne-Extraleicht.fbd9947add311e62d453.otf",
     "static/media/centaur-mt-std.otf": "/content/static/media/centaur-mt-std.1ea126bbfb9b94a5b360.otf",
     "static/media/four.png": "/content/static/media/four.4e34017ebb24429210b4.png",
     "static/media/firstback.jpg": "/content/static/media/firstback.0157fed89e7532bf72a5.jpg",
     "static/media/five.png": "/content/static/media/five.daa6437bc84b3c8dc70d.png",
+    "static/media/myPortfolioHeader.png": "/content/static/media/myPortfolioHeader.805166e820d0bf9811de.png",
     "static/media/ygona.png": "/content/static/media/ygona.17c923eb47c32a8ed9dc.png",
     "static/media/portf.png": "/content/static/media/portf.349de0111280527edc08.png",
     "static/media/logo.png": "/content/static/media/logo.51537010b7221b04840e.png",
     "index.html": "/content/index.html",
-    "main.24dfb5c8.css.map": "/content/static/css/main.24dfb5c8.css.map",
-    "main.57ee2687.js.map": "/content/static/js/main.57ee2687.js.map",
+    "main.c019723f.css.map": "/content/static/css/main.c019723f.css.map",
+    "main.752923f9.js.map": "/content/static/js/main.752923f9.js.map",
     "787.35fe7324.chunk.js.map": "/content/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24dfb5c8.css",
-    "static/js/main.57ee2687.js"
+    "static/css/main.c019723f.css",
+    "static/js/main.752923f9.js"
   ]
 }
