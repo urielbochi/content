@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Space+Grotesk:wght@300&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -134,21 +135,20 @@ table {
   font-weight: 400;
   line-height: 120%;
   letter-spacing: -0.01em;
-  color: white;
+  color: black;
   font-size: 72px;
   margin-bottom: 35px;
 }
 
 .pConfig {
   width: 500px;
-  color: white;
+  color: black;
   font-size: 20px;
   line-height: 180%;
   letter-spacing: 0.2em;
-  margin: 0;
   font-weight: 100;
   margin-bottom: 90px;
-  margin-left: 90px;
+  margin-left: 140px;
 }
 
 .swipeDown {
@@ -165,108 +165,74 @@ table {
 }
 
 .home__image {
-  background: url("./images/firstback.jpg")
-    no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #DEDCD1;
+  background-position: center center;
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.2);
+
 }
+
+@font-face {
+  font-family: Iskry;
+  src: url("../font/Iskry-Regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Juliana;
+  src: url("../font/centaur-mt-std.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Ariel;
+  src: url("../font/Sohne-Extraleicht.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 /* Iphone */
 @media screen and (max-width: 766px) {
   .pConfig {
     margin-top: 5px;
-    max-width: 240px;
+    width: 200px;
     font-size: 12px;
     line-height: 25px;
     font-size: 11px;
-    margin-left: 50px;
-}
+    margin-left: 10px;
+  }
   .title {
     font-size: 45px;
     width: 200px;
     margin-bottom: 5px;
   }
-}
-
-@media screen and (min-width:375px) and (max-width: 376px) {
   .home__container {
-    height: 90.5vh;
+    height: 89%;
   }
 }
 
-@media screen and (min-width:390px) and (max-width: 391px) {
-  .home__container {
-    height: 90vh;
+@media only screen and (min-width: 767px) {
+  @media only screen and (max-width: 1940px) {
+    .home__container {
+      height: 92%;
+    }
+   
   }
 }
 
-@media screen and (min-width: 414px) and (max-width: 415px) {
-  .home__container {
-    height: 90.5vh;
+@supports (-webkit-touch-callout: none) {
+  .home__image {
+    background-attachment: scroll;
+    background-size: auto;
   }
 }
 
-
-/* Notebook */
-
-@media screen and (min-width:1360px) and (max-width: 1366px) {
-  .home__container {
-    height: 88vh;
-  }
-}
-
-
-/* Samsung */
-@media screen and (min-width: 360px) and (max-width: 361px) {
-  .home__container {
-    height: 94vh;
-  }
-}
-
-@media screen and (min-width: 412px) and (max-width: 413px) {
-  .home__container {
-    height: 89.5vh;
-  }
-}
-
-@media screen and (min-width: 393px) and (max-width: 400px) {
-  .home__container {
-    height: 90vh;
-  }
-}
-
-
-/* Surface Pro */
-@media screen and (max-width: 912px) and (min-width: 900px) {
-  .pConfig {
-    margin-top: 5px;
-    max-width: 400px;
-    font-size: 20px;
-    line-height: 50px;
-    margin-left: 200px;
-
-}
-  .title {
-    font-size: 6vh;
-    width: 200px;
-    margin-bottom: 5px;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .pConfig {
-    margin-top: 5px;
-    max-width: 150px;
-    font-size: 10px;
-    line-height: 25px;
-    margin-left: -40px;
-}
-  .title {
-    font-size: 6vh;
-    width: 200px;
-    margin-bottom: 5px;
-  }
+@supports not (-webkit-touch-callout: none) {
+  /* CSS for other than iOS devices */ 
 }

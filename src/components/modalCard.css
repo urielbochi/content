@@ -1,0 +1,49 @@
+.modalCard__image {
+    width:  105vh;
+    object-fit: cover;
+}
+
+.carousel__container {
+    display: flex;
+    color: white;
+}
+
+.modalCard__thumb-image {
+    width: 35vh;
+}
+
+.container__thumb {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.modal__project-description-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-left: 160px;
+}
+
+.modal__title {
+    font-size: 80px;
+    font-family: Iskry;
+    text-align: center;
+}
+
+.modal__project-description {
+    font-size: 25px;
+    width: 300px;
+    text-align: justify;
+    font-family: Juliana;
+}
+
+.modal__subtitle {
+    font-family: Juliana;
+    color: hsla(0,0%,100%,.6509803921568628);
+    word-spacing: 4px;
+}
+
+.modal__app-links {
+    font-size: 30px;
+}

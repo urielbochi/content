@@ -1,52 +1,105 @@
-.navbar__section {
-    font-family: Iskry;
-    font-weight: 100;
-    color: white;
-    letter-spacing: 10px;
-    font-size: 20px;
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 40px;
+  font-family: Ariel;
+  color: black;
+  font-size: 25px;
+  background-color: #f4f3ea;
+  padding: 12px;
+  z-index: 0;
+}
+.positionFixed {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.navbar__image {
+  width: 40vh;
+}
+
+.linksTest {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
 }
 
-.navbar__container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 40px;
+a:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(17, 37, 93);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
 }
 
-@media screen and (max-width: 766px) {
-   .navbar__section {
-      font-size: 15px;
-      margin-left: 15px;
-   }
-   .navbar__container {
+a:hover::after {
+    width: 100%;
+}
+
+@media screen and (max-width: 490px) {
+  .navbar__container {
     justify-content: space-evenly;
-    gap: 20px;
-    max-width: 400px;
-   }
+    font-size: 12px;
+    padding: 0px;
   }
+  .navbar__image {
+    width: 15vh;
+  }
+}
 
+@media screen and (max-width: 1000px) and (min-width: 601px) {
+  .navbar__container {
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0px;
+  }
+  .navbar__image {
+    width: 30vh;
+  }
+}
 
-  @media screen and (max-width: 912px) and (min-width: 900px ) {
-    .navbar__section {
-        font-size: 3vh;
-    }
-   }
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  .navbar__container {
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 0px;
+  }
+  .navbar__image {
+    width: 30vh;
+  }
+}
 
-   @media screen and (max-width: 280px) and (min-width: 200px ) {
-    .navbar__section {
-        display: inline !important;
-        z-index: 9999 !important;
-        left: 0 !important;
-        position: absolute;
-     }
-   }
- 
+@media screen and (max-width: 1600px) and (min-width: 1001px) {
+  .navbar__container {
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 0px;
+  }
+  .navbar__image {
+    width: 30vh;
+  }
+}
 
-
-
-  
+@media screen and (max-width: 912px) and (min-width: 900px) {
+  .navbar__section {
+    font-size: 3vh;
+  }
+}

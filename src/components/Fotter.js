@@ -4,7 +4,7 @@ import './fotter.css'
 function Footer() {
   return (
     <div className="footer__content">
-     <p>URIELBOCHI</p>
+     <p>My Portfolio</p>
     </div>
   );
 }

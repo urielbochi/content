@@ -1,22 +1,24 @@
 import React from "react";
 import { Link } from "react-scroll";
+import logo from "../images/logo.png";
 import "./navbar.css";
 
-function NavBar({ navBarState, navBarOpen }) {
+function NavBar() {
   return (
-    <div className="navbar__container navbar__section">
-      <div>
-        <Link to="/home" spy={true} smooth={true} offset={50} duration={500}>
-          Home
-        </Link>
-      </div>
-      <div>
-        <Link to="about" spy={true} smooth={true} offset={50} duration={1500}>
-          About
-        </Link>
-      </div>
-      <div>
-        <Link href="/projects">Projects</Link>
+    <div className="positionFixed">
+      <div className="navbar__container">
+        <img className="navbar__image" src={logo} />
+        <div className="linksTest">
+          <Link className="clickable bast" to="home" spy={true} smooth={true} duration={1500}>
+            HOME
+          </Link>
+          <Link className="clickable bast" to="about" spy={true} smooth={true} duration={1500}>
+            ABOUT
+          </Link>
+          <Link className="clickable bast" to="projects" spy={true} smooth={true} duration={1500} >
+            PROJECTS
+          </Link>
+        </div>
       </div>
     </div>
   );

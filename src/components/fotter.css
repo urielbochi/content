@@ -1,5 +1,5 @@
 .footer__content {
-    color: white;
+    color: black;
     text-align: left;
     font-family: Iskry;
     font-weight: 400;
@@ -12,22 +12,15 @@
     .footer__content {
         text-align: center;
         font-size: 4vh;
-        max-width: 250px;
+        max-width: 400px;
     }
    }
 
-@media screen and (max-width: 766px) and (min-width: 300px) {
+@media screen and (max-width: 490px) {
     .footer__content {
         text-align: center;
-        font-size: 5vh;
+        font-size: 4vh;
     }
    }
 
 
-   @media screen and (max-width: 1024px) and (min-width: 1023px) {
-    .footer__content {
-        text-align: center;
-        font-size: 6vh;
-        margin-top: -5vh;
-    }
-   }
