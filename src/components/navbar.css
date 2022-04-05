@@ -32,14 +32,14 @@
   width: 600px;
 }
 
-a {
+.positionFixed a {
   position: relative;
   text-decoration: none;
   color: black;
   padding: 0 10px;
 }
 
-a:after {
+.positionFixed a:after {
   content: "";
   position: absolute;
   background-color: rgb(17, 37, 93);

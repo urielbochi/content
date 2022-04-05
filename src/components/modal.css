@@ -14,3 +14,44 @@
 .ReactModal__Overlay--before-close{
     opacity: 0;
 }
+
+.modal__configuration {
+      position: absolute;
+      top: 120px;
+      left: 40px;
+      right: 40px;
+      bottom: 80px;
+      background: black;
+      overflow: auto;
+      border-radius: 0px;
+      outline: none;
+      -webkit-overflow-scrolling: touch;
+      padding-top: 20px;
+}
+
+.colorRed {
+    color: red;
+}
+
+.modal__close-button {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-top: -20px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+  @media only screen and (min-width: 200px) {
+    @media only screen and (max-width: 799px) {
+        .modal__configuration {
+            bottom: 50px;
+            top: 50px;
+            left: 20px;
+            right: 20px;
+        }
+
+    }
+  }

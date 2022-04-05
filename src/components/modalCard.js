@@ -4,6 +4,8 @@ import four from "../images/four.png";
 import { MyContext } from "../context/context";
 import "./modalCard.css";
 import "animate.css";
+import closeButton from "../images/iconClose.png";
+
 
 function ModalCard({
   title,
@@ -22,29 +24,28 @@ function ModalCard({
   return (
     <div className="container__modalCard">
       <div className="carousel__container">
-        <img className="modalCard__image" src={imageBank[position]} />
+        <div className="modalcard__images-container">
+          <img className="modalCard__image" src={imageBank[position]} />
+          <div className="modalcard__thumb-configuration">
+          {imageBank.map((item, index) => (
+              <img
+                className="modalCard__thumb-image"
+                src={item}
+                onClick={() => setPosition(index)}
+              />
+          ))}
+          </div>
+        </div>
         <div className="modal__project-description-container">
           <h1 className="modal__title">{title}</h1>
-          <p className="modal__subtitle">
-            {subtitle}
-          </p>
-          <p className="modal__project-description">
-           {description}
-          </p>
-          <p className="modal__app-links">Github link {gitLink}</p>
-          <p className="modal__app-links">Live application {liveLink}</p>
-        </div>
-      </div>
-      <div className="container__thumb">
-        {imageBank.map((item, index) => (
-          <img
-            className="modalCard__thumb-image"
-            src={item}
-            onClick={() => setPosition(index)}
-          />
-        ))}
+          <p className="modal__subtitle">{subtitle}</p>
+          <p className="modal__project-description">{description}</p>
+          <a href={gitLink} target="_blank" className="modal__app-links">Github link</a>
+          <a href={liveLink} target="_blank" className="modal__app-links">Live application</a>        
+          </div>
       </div>
     </div>
+
   );
 }
 
