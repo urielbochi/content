@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/myPortfolio/static/css/main.6885cbbf.css",
-    "main.js": "/myPortfolio/static/js/main.6c584be7.js",
+    "main.js": "/myPortfolio/static/js/main.959874a0.js",
     "static/js/787.35fe7324.chunk.js": "/myPortfolio/static/js/787.35fe7324.chunk.js",
-    "static/media/recipesLogin.png": "/myPortfolio/static/media/recipesLogin.55d5ba711eb12f259a45.png",
-    "static/media/recipesProfile.png": "/myPortfolio/static/media/recipesProfile.ce461ed18241447f8403.png",
-    "static/media/recipesMain.png": "/myPortfolio/static/media/recipesMain.9d8f9128636c309c3b64.png",
+    "static/media/recipesLogin.png": "/myPortfolio/static/media/recipesLogin.5638f0ef11d887897be7.png",
     "static/media/solarSystem.png": "/myPortfolio/static/media/solarSystem.4ae60415c7f0cc4c524d.png",
     "static/media/solarSystemEarth.png": "/myPortfolio/static/media/solarSystemEarth.4b9c153b08efeeb4f597.png",
+    "static/media/recipesProfile.png": "/myPortfolio/static/media/recipesProfile.0d90469f4b288abf0403.png",
     "static/media/valeria.jpg": "/myPortfolio/static/media/valeria.6968e0acfe117576511e.jpg",
     "static/media/myPortfolioProjects.png": "/myPortfolio/static/media/myPortfolioProjects.2e88e162d1ca8d1992ea.png",
+    "static/media/recipesMain.png": "/myPortfolio/static/media/recipesMain.bd75092d2e915297d8ed.png",
     "static/media/myPortfolioAbout.png": "/myPortfolio/static/media/myPortfolioAbout.8294e9b8a0cc564d0e67.png",
     "static/media/pixelColored.png": "/myPortfolio/static/media/pixelColored.0ca35ae9e1a64078b0e7.png",
     "static/media/pixelMain.png": "/myPortfolio/static/media/pixelMain.d677942cca946432aee4.png",
@@ -31,11 +31,11 @@
     "static/media/logo.png": "/myPortfolio/static/media/logo.51537010b7221b04840e.png",
     "index.html": "/myPortfolio/index.html",
     "main.6885cbbf.css.map": "/myPortfolio/static/css/main.6885cbbf.css.map",
-    "main.6c584be7.js.map": "/myPortfolio/static/js/main.6c584be7.js.map",
+    "main.959874a0.js.map": "/myPortfolio/static/js/main.959874a0.js.map",
     "787.35fe7324.chunk.js.map": "/myPortfolio/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6885cbbf.css",
-    "static/js/main.6c584be7.js"
+    "static/js/main.959874a0.js"
   ]
 }
