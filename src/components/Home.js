@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import Footer from "./Fotter";
+import React from "react";
+import Footer from "./Footer";
 import NavBar from "./Navbar";
-import images from "../images/firstback.jpg";
 
 function Home() {
   return (

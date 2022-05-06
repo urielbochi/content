@@ -4,7 +4,6 @@ import third from "../images/third.png";
 import me from "../images/me.jpeg";
 import four from '../images/four.png'
 import five from '../images/five.png'
-import NavBar from "./Navbar";
 import "animate.css";
 
 

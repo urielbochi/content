@@ -1,6 +1,8 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import solarSystem from "../images/ygona.png";
 import portf from "../images/portf.png";
+import TractianLogo from "../images/TractianLogo.png";
+
 import restaurant from "../images/valeria.jpg";
 import shopp from "../images/juju.jpeg";
 import pixel from "../images/pixel.jpeg";
@@ -9,8 +11,7 @@ import "./projects.css";
 import Moddal from "./modal";
 
 function Projects() {
-  const { modalOpen, setModalOpen, selectedItem, setSelectedItem } =
-    useContext(MyContext);
+  const { modalOpen, setModalOpen, setSelectedItem } = useContext(MyContext);
 
   const setToFalse = () => {
     setModalOpen(true);
@@ -28,6 +29,8 @@ function Projects() {
       setSelectedItem("solar__system");
     } else if (target.className.includes("pixels")) {
       setSelectedItem("pixels");
+    } else if (target.className.includes("tractian__dashboard")) {
+      setSelectedItem("tractian__dashboard");
     }
   };
 
@@ -50,6 +53,19 @@ function Projects() {
 
         <div className="image my__portfolio">
           <img
+            className="projects__image-config image__img tractian__dashboard"
+            src={TractianLogo}
+          />
+          <div
+            className="image__overlay tractian__dashboard"
+            onClick={(e) => getEvent(e)}
+          >
+            <div className="image__title tractian__dashboard">Tractian Dashboard</div>
+          </div>
+        </div>
+
+        <div className="image my__portfolio">
+          <img
             className="projects__image-config image__img my__portfolio"
             src={portf}
           />
@@ -64,7 +80,10 @@ function Projects() {
         {modalOpen && <Moddal />}
 
         <div className="image shopping__cart" onClick={(e) => getEvent(e)}>
-          <img className="projects__image-config image__img shopping__cart" src={shopp} />
+          <img
+            className="projects__image-config image__img shopping__cart"
+            src={shopp}
+          />
           <div className="image__overlay shopping__cart">
             <div className="image__title shopping__cart">Shopping Cart</div>
           </div>
@@ -81,7 +100,10 @@ function Projects() {
         </div>
 
         <div className="image pixels" onClick={(e) => getEvent(e)}>
-          <img className="projects__image-config image__img pixels" src={pixel} />
+          <img
+            className="projects__image-config image__img pixels"
+            src={pixel}
+          />
           <div className="image__overlay pixels">
             <div className="image__title pixels">Pixels</div>
           </div>

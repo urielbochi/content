@@ -16,6 +16,9 @@ import shoppingCartUP from "../images/shoppingCartList.png";
 import solarSystem from "../images/solarSystem.png";
 import solarSystemEarth from "../images/solarSystemEarth.png";
 import closeButton from "../images/iconClose.png";
+import tractianDash from "../images/TractianDash.png";
+import tractianAssets from "../images/TractianAssets.png";
+import tractianView from "../images/TractianSee.png";
 
 Modal.setAppElement("#root");
 
@@ -44,7 +47,7 @@ function Moddal() {
         className="modal__configuration"
       >
         <div className="modal__close-button">
-        <img src={closeButton} alt="Close Button" onClick={changeToClose} />
+          <img src={closeButton} alt="Close Button" onClick={changeToClose} />
         </div>
         {selectedItem === "recipes__app" && (
           <ModalCard
@@ -55,7 +58,7 @@ function Moddal() {
             imageTwo={myRecipesMain}
             imageThree={myRecipesProf}
             subtitle="HTML CSS REACT JS CONTEXT API REDUX HOOKS"
-            description="A recipes app (made for mobile) where the user can interact and apply different types of searches and filters. This project was made in group. In the app, its possible to find food and drink recipes. When the user opens a recipe, they can start it and its progress will be saved, in addition the user can also favorite the recipe. Theres a profile page which has the done and favorited recipes. Its possible to search recipes using the search bar and applying the filters or through categories."
+            description="A recipes app (made for mobile) in which the user can interact and apply different types of searches and filters. This project was made in group. In the app, its possible to find food and drink recipes. When the user opens a recipe, they can start it and its progress will be saved, in addition the user can also favorite the recipe. There is a profile page which has the done and favorite recipes. It is possible to search recipes using the search bar and applying the filters or through categories."
           />
         )}
         {selectedItem === "my__portfolio" && (
@@ -67,9 +70,8 @@ function Moddal() {
             imageTwo={myPortfAbout}
             imageThree={myPortfProjects}
             subtitle="HTML CSS REACT JS REACT MODAL CONTEXT API HOOKS"
-            description=" An application where you know a little about me :) The site palette
-            represents my favorites colors. My biggest problem building it was
-            for sure, responsivity"
+            description="An application where you can know a more little about me! :) The site palette represents my favorites colors. My biggest problem while building it was responsiveness.
+            "
           />
         )}
         {selectedItem === "shopping__cart" && (
@@ -98,7 +100,7 @@ function Moddal() {
             imageOne={solarSystem}
             imageTwo={solarSystemEarth}
             subtitle="HTML CSS JS REACT MOCK HOOKS "
-            description="My first REACT application, developed early 2021. Every time you click on a planet, it changes the background and display informations about the planet.
+            description="My first REACT application, developed in early 2021. Every time you click on a planet, it changes the background and display information about the planet.
         "
           />
         )}
@@ -110,8 +112,22 @@ function Moddal() {
             imageOne={pixelsMain}
             imageTwo={pixelsColored}
             subtitle="HTML CSS JS "
-            description="My first JS game where you can color the squares however you like. The color palette updates every time the page is reloaded.
+            description="My first JS game in which you can color the squares however you like. The color palette updates every time the page is reloaded.
             "
+          />
+        )}
+        {selectedItem === "tractian__dashboard" && (
+          <ModalCard
+            title="Tractian Dashboard"
+            gitLink="https://github.com/urielbochi/tr-desafio"
+            liveLink="https://urielbochi-tractian.herokuapp.com/home"
+            imageOne={tractianDash}
+            imageTwo={tractianAssets}
+            imageThree={tractianView}
+            subtitle="CRUD APPLICATION | REACT | HTML | CSS"
+            description="Consumes an API and does actions like add, view, edit, and delete (buttons are in the actions column). If the tables are reduced horizontally, click and drag the mouse to the side to view the content. It is also possible to scroll the tables vertically.
+            On the main page (/home), dynamic graphics are rendered based on API information. They update as data entered in the assets table. The button to add a new asset is only unlocked if healthscore and maximum temperature are filled.
+            You can edit all values ​​and also add new ones. The reset button brings up the API data again."
           />
         )}
       </Modal>
