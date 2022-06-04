@@ -8,8 +8,9 @@
   background: #d9c4a9;
 }
 
-.about__row__align__main-flex {
+.about__content {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -17,6 +18,7 @@
   font-family: Iskry;
   color: #07203f;
   font-size: 80px;
+  text-align: center;
 }
 
 .about__container {
@@ -44,10 +46,6 @@
   opacity: 0.5;
 }
 
-.about__image {
-  width: 400px;
-  opacity: 0.8;
-}
 
 .about__text__field {
   display: flex;
@@ -72,12 +70,12 @@
   font-family: Juliana;
 }
 
-.columnTest {
+.about__main {
   display: flex;
 }
 
 
-.about__image__fix {
+.about__image {
   max-width: 20vh;
   max-height: 500px;
   margin-left: 50px;
@@ -91,12 +89,12 @@
 }
 
 @media only screen and (max-width: 499px) {
-  .about__row__align__main-flex {
+  .about__content {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 15vh;
   }
-  .about__image__fix {
+  .about__image {
     float: left;
     width: 20vh;
     height: 35vh;
@@ -120,11 +118,11 @@
 
 @media only screen and (min-width: 500px) {
   @media only screen and (max-width: 1799px) {
-    .about__row__align__main-flex {
+    .about__content {
       justify-content: space-around;
       row-gap: 10vh;
     }
-    .about__image__fix {
+    .about__image {
       max-width: 400px;
       width: 35vh;
       height: 60vh;
@@ -150,7 +148,7 @@
       justify-content: space-around;
       row-gap: 10vh;
     }
-    .about__image__fix {
+    .about__image {
       max-width: 400px;
       width: 25vh;
       height: 60vh;

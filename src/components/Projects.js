@@ -35,23 +35,22 @@ function Projects() {
   };
 
   return (
-    <div className="projects__background projects__container" id="projects">
-      <div className="projects__title">
-        <h1 className="projects__h1-title">My Projects</h1>
-      </div>
-
-      <div className="projects__grid-main">
-        <div className="image" onClick={(e) => getEvent(e)}>
+    <section className="projects__background projects__container" id="projects">
+        <h1 className="projects__h1-title projects__title">My Projects</h1>
+        
+      <section className="projects__content">
+        <div className="image recipes__app" onClick={(e) => getEvent(e)}>
           <img
             className="projects__image-config image__img recipes__app"
             src={restaurant}
+            alt="A foto foi tirada a noite, em um local escuro iluminado pelas luzes neon de cor roxa do local. É um bar, em seu topo há uma placa com o nome do bar - The District, abaixo, outra placa escrito Party Bar and Grill. As paredes do bar são feitas de vidro, acima dessas paredes existe uma placa que diz COURT CENTER "
           />
           <div className="image__overlay recipes__app">
-            <div className="image__title recipes__app">Recipes App</div>
+            <h1 className="image__title recipes__app">Recipes App</h1>
           </div>
         </div>
 
-        <div className="image my__portfolio">
+        <div className="image tractian__dashboard">
           <img
             className="projects__image-config image__img tractian__dashboard"
             src={TractianLogo}
@@ -60,7 +59,7 @@ function Projects() {
             className="image__overlay tractian__dashboard"
             onClick={(e) => getEvent(e)}
           >
-            <div className="image__title tractian__dashboard">Tractian Dashboard</div>
+            <h1 className="image__title tractian__dashboard">Tractian Dashboard</h1>
           </div>
         </div>
 
@@ -73,7 +72,7 @@ function Projects() {
             className="image__overlay my__portfolio"
             onClick={(e) => getEvent(e)}
           >
-            <div className="image__title my__portfolio">My Portfolio</div>
+            <h1 className="image__title my__portfolio">My Portfolio</h1>
           </div>
         </div>
 
@@ -85,7 +84,7 @@ function Projects() {
             src={shopp}
           />
           <div className="image__overlay shopping__cart">
-            <div className="image__title shopping__cart">Shopping Cart</div>
+            <h1 className="image__title shopping__cart">Shopping Cart</h1>
           </div>
         </div>
 
@@ -95,7 +94,7 @@ function Projects() {
             src={solarSystem}
           />
           <div className="image__overlay solar__system">
-            <div className="image__title solar__system">Solar System</div>
+            <h1 className="image__title solar__system">Solar System</h1>
           </div>
         </div>
 
@@ -105,11 +104,11 @@ function Projects() {
             src={pixel}
           />
           <div className="image__overlay pixels">
-            <div className="image__title pixels">Pixels</div>
+            <h1 className="image__title pixels">Pixels</h1>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </section>
   );
 }
 

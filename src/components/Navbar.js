@@ -5,7 +5,7 @@ import "./navbar.css";
 
 function NavBar() {
   return (
-    <div className="positionFixed">
+    <nav className="positionFixed">
       <div className="navbar__container">
         <img className="navbar__image" src={logo} />
         <div className="linksTest">
@@ -20,7 +20,7 @@ function NavBar() {
           </Link>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }
 

@@ -1,11 +1,9 @@
 import React from "react";
-import Footer from "./Footer";
-import NavBar from "./Navbar";
+import './footer.css';
 
 function Home() {
   return (
-    <div className="home__image" id="home">
-      <NavBar />
+    <section className="home__content" id="home">
       <div className="home__container">
         <h1 className="title">Uriel Bochi</h1>
         <p className="pConfig">
@@ -13,8 +11,10 @@ function Home() {
           down to the next sections
         </p>
       </div>
-      <Footer/>
-    </div>
+      <div className="footer__content">
+        <p>My Portfolio</p>
+      </div>
+    </section>
   );
 }
 

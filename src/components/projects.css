@@ -9,7 +9,7 @@
   padding-bottom: 40px;
 }
 
-.projects__grid-main {
+.projects__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
