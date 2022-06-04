@@ -1,5 +1,5 @@
 import Modal from "react-modal";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import "./modal.css";
 import { MyContext } from "../context/context";
 import ModalCard from "./modalCard";
@@ -23,16 +23,8 @@ import tractianView from "../images/TractianSee.png";
 Modal.setAppElement("#root");
 
 function Moddal() {
-  const { modalOpen, setModalOpen, selectedItem, setSelectedItem } =
+  const { modalOpen, setModalOpen, selectedItem } =
     useContext(MyContext);
-
-  const customStyles = {
-    content: {
-      background: "black",
-      marginTop: "80px",
-      marginBottom: "60px",
-    },
-  };
 
   const changeToClose = () => {
     setModalOpen(false);

@@ -7,7 +7,7 @@ function NavBar() {
   return (
     <nav className="positionFixed">
       <div className="navbar__container">
-        <img className="navbar__image" src={logo} />
+        <img className="navbar__image" alt="Logo escrito URIELBOCHI." src={logo} />
         <div className="linksTest">
           <Link className="clickable bast" to="home" spy={true} smooth={true} duration={1500}>
             HOME

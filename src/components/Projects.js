@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import solarSystem from "../images/ygona.png";
 import portf from "../images/portf.png";
 import TractianLogo from "../images/TractianLogo.png";
-
 import restaurant from "../images/valeria.jpg";
 import shopp from "../images/juju.jpeg";
 import pixel from "../images/pixel.jpeg";
@@ -12,10 +11,6 @@ import Moddal from "./modal";
 
 function Projects() {
   const { modalOpen, setModalOpen, setSelectedItem } = useContext(MyContext);
-
-  const setToFalse = () => {
-    setModalOpen(true);
-  };
 
   const getEvent = ({ target }) => {
     setModalOpen(true);
