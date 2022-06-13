@@ -6,7 +6,7 @@ function Home() {
     <section className="home__content" id="home">
       <div className="home__container">
         <h1 className="title">Uriel Bochi</h1>
-        <p className="pConfig">
+        <p className="home__description">
           Hey there! Welcome to my Portfolio. I appreciate your visit. Swipe
           down to the next sections
         </p>

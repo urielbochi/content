@@ -63,7 +63,7 @@
     opacity: 1;
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 600px) {
   .projects__image-config {
     width: 42vh;
     height: 42vh;

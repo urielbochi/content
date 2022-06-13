@@ -140,7 +140,7 @@ table {
   margin-bottom: 35px;
 }
 
-.pConfig {
+.home__description {
   width: 500px;
   color: black;
   font-size: 20px;
@@ -198,8 +198,8 @@ table {
 
 
 /* Iphone */
-@media screen and (max-width: 766px) {
-  .pConfig {
+@media screen and (max-width: 499px) {
+  .home__description {
     margin-top: 5px;
     width: 200px;
     font-size: 12px;
@@ -217,12 +217,29 @@ table {
   }
 }
 
+@media only screen and (min-width: 500px) {
+  @media only screen and (max-width: 766px) {
+    .home__description {
+      font-size: 16px;
+      margin-top: 5px;
+      width: 300px;
+      line-height: 180%;
+      margin-left: 10px;
+      letter-spacing: 0.2em;
+    }
+    .title {
+      font-size: 60px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+
 @media only screen and (min-width: 767px) {
   @media only screen and (max-width: 1940px) {
     .home__container {
       height: 92%;
     }
-   
   }
 }
 

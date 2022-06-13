@@ -54,14 +54,29 @@ a:hover::after {
     width: 100%;
 }
 
-@media screen and (max-width: 490px) {
-  .navbar__container {
-    justify-content: space-evenly;
-    font-size: 12px;
-    padding: 0px;
+@media only screen and (min-width: 100px) {
+  @media only screen and (max-width: 490px) { 
+    .navbar__container {
+      justify-content: space-evenly;
+      font-size: 12px;
+      padding: 0px;
+    }
+    .navbar__image {
+      width: 15vh;
+    }
   }
-  .navbar__image {
-    width: 15vh;
+}
+
+@media only screen and (min-width: 491px) {
+  @media only screen and (max-width: 700px) { 
+    .navbar__container {
+      justify-content: space-evenly;
+      font-size: 12px;
+      padding: 0px;
+    }
+    .navbar__image {
+      width: 20vh;
+    }
   }
 }
 
@@ -76,20 +91,9 @@ a:hover::after {
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 500px) {
-  .navbar__container {
-    justify-content: space-between;
-    font-size: 15px;
-    padding: 0px;
-  }
-  .navbar__image {
-    width: 30vh;
-  }
-}
 
 @media screen and (max-width: 1600px) and (min-width: 1001px) {
   .navbar__container {
-    justify-content: space-between;
     font-size: 25px;
     padding: 0px;
   }
