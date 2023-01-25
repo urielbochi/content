@@ -50,7 +50,7 @@ function Moddal() {
             imageTwo={myRecipesMain}
             imageThree={myRecipesProf}
             subtitle="HTML CSS REACT JS CONTEXT API REDUX HOOKS"
-            description="A recipes app (made for mobile) in which the user can interact and apply different types of searches and filters. This project was made in group. In the app, its possible to find food and drink recipes. When the user opens a recipe, they can start it and its progress will be saved, in addition the user can also favorite the recipe. There is a profile page which has the done and favorite recipes. It is possible to search recipes using the search bar and applying the filters or through categories."
+            description="A recipes app in which the user can interact and apply different types of searches and filters. This project was made in group. In the app, its possible to find food and drink recipes. When the user opens a recipe, they can start it and its progress will be saved, in addition the user can also favorite the recipe. There is a profile page which has the done and favorite recipes. It is possible to search recipes using the search bar and applying the filters or through categories."
           />
         )}
         {selectedItem === "my__portfolio" && (
@@ -112,7 +112,7 @@ function Moddal() {
           <ModalCard
             title="Tractian Dashboard"
             gitLink="https://github.com/urielbochi/tr-desafio"
-            liveLink="https://urielbochi-tractian.herokuapp.com/home"
+            liveLink="https://tr-challenge.netlify.app/home"
             imageOne={tractianDash}
             imageTwo={tractianAssets}
             imageThree={tractianView}
@@ -122,6 +122,45 @@ function Moddal() {
             You can edit all values ​​and also add new ones. The reset button brings up the API data again."
           />
         )}
+
+        {selectedItem === "calendar" && (
+          <ModalCard
+            title="Tokenlab Calendar"
+            gitLink="https://github.com/urielbochi/token-lab-desafio"
+            imageOne="https://cdn.discordapp.com/attachments/361609071649882114/1067883126514262107/image.png"
+            imageTwo="https://cdn.discordapp.com/attachments/361609071649882114/1067883203987263588/image.png"
+            imageThree="https://cdn.discordapp.com/attachments/361609071649882114/1067883572226170890/image.png"
+            subtitle="CRUD APPLICATION | REACT | HTML | CSS | Node | SQL"
+            description="A calendar application, where you can register an account, access your account and register events, just like Google Calendar."
+          />
+        )}
+
+        {selectedItem === "contacts" && (
+          <ModalCard
+            title="Contacts List"
+            gitLink="https://github.com/urielbochi/bravi-contacts"
+            imageOne="https://cdn.discordapp.com/attachments/361609071649882114/1067891630121701386/image.png"
+            imageTwo="https://cdn.discordapp.com/attachments/361609071649882114/1067891744647159978/image.png"
+            imageThree="https://cdn.discordapp.com/attachments/361609071649882114/1067891855892684830/image.png"
+            subtitle="CRUD APPLICATION | REACT | HTML | CSS | Node | SQL"
+            description="A contact list, where you can add, edit, or remove a contact."
+          />
+        )}
+
+        {selectedItem === "starwars" && (
+          <ModalCard
+            title="Deathstar DB"
+            liveLink="https://deathstardb.netlify.app/"
+            gitLink="https://github.com/urielbochi/deathstardb"
+            imageOne="https://cdn.discordapp.com/attachments/361609071649882114/1067897806079144026/image.png"
+            imageTwo="https://cdn.discordapp.com/attachments/361609071649882114/1067897938598174760/image.png"
+            imageThree="https://cdn.discordapp.com/attachments/361609071649882114/1067898042944061470/image.png"
+            subtitle="WIKI | REACT | HTML | CSS "
+            description="Deathstar DB is a wiki that provides some information on some of the many Star Wars characters.
+            Users can find out more about the characters. Genre, species and movie filters are available to streamline your search and there is also a search bar to make it easy to find characters quickly. Be wary of spoilers as you browse the information!"
+          />
+        )}
+
       </Modal>
     </div>
   );

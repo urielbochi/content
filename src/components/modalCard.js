@@ -37,7 +37,7 @@ function ModalCard({
           <p className="modal__subtitle">{subtitle}</p>
           <p className="modal__project-description">{description}</p>
           <a href={gitLink} target="_blank" rel="noreferrer" className="modal__app-links">Github link</a>
-          <a href={liveLink} target="_blank" rel="noreferrer" className="modal__app-links">Live application</a>        
+          {liveLink && <a href={liveLink} target="_blank" rel="noreferrer" className="modal__app-links">Live application</a>}       
           </div>
       </div>
     </div>

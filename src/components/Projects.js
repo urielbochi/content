@@ -27,13 +27,36 @@ function Projects() {
     } else if (target.className.includes("tractian__dashboard")) {
       setSelectedItem("tractian__dashboard");
     }
+    else if (target.className.includes("calendar")) {
+      setSelectedItem("calendar");
+    }
+    else if (target.className.includes("contacts")) {
+      setSelectedItem("contacts");
+    }
+    else if (target.className.includes("starwars")) {
+      setSelectedItem("starwars");
+    }
   };
 
   return (
     <section className="projects__background projects__container" id="projects">
-        <h1 className="projects__h1-title projects__title">My Projects</h1>
-        
+      <h1 className="projects__h1-title projects__title">My Projects</h1>
+
       <section className="projects__content">
+
+
+      <div className="image contacts" onClick={(e) => getEvent(e)}>
+          <img
+            className="projects__image-config image__img starwars"
+            src="https://cdn.discordapp.com/attachments/361609071649882114/1067867693644001452/1000.png"
+            alt="Imagem do projeto Recipes App. A foto foi tirada a noite, em um local escuro iluminado pelas luzes neon de cor roxa do local. É um bar, em seu topo há uma placa com o nome do bar - The District, abaixo, outra placa escrito Party Bar and Grill. As paredes do bar são feitas de vidro, acima dessas paredes existe uma placa que diz COURT CENTER "
+          />
+          <div className="image__overlay starwars">
+            <h1 className="image__title starwars">Deathstar DB</h1>
+          </div>
+        </div>
+
+
         <div className="image recipes__app" onClick={(e) => getEvent(e)}>
           <img
             className="projects__image-config image__img recipes__app"
@@ -44,6 +67,7 @@ function Projects() {
             <h1 className="image__title recipes__app">Recipes App</h1>
           </div>
         </div>
+
 
         <div className="image tractian__dashboard">
           <img
@@ -59,12 +83,36 @@ function Projects() {
           </div>
         </div>
 
+
+
+        <div className="image calendar" onClick={(e) => getEvent(e)}>
+          <img
+            className="projects__image-config image__img calendar"
+            src="https://cdn.discordapp.com/attachments/361609071649882114/1067879638858223776/62604576fc20f55acea94bac_Google20Calendar20Productivity20Hacks-p-1080.png"
+            alt="Imagem do projeto Recipes App. A foto foi tirada a noite, em um local escuro iluminado pelas luzes neon de cor roxa do local. É um bar, em seu topo há uma placa com o nome do bar - The District, abaixo, outra placa escrito Party Bar and Grill. As paredes do bar são feitas de vidro, acima dessas paredes existe uma placa que diz COURT CENTER "
+          />
+          <div className="image__overlay calendar">
+            <h1 className="image__title calendar">Tokenlab Calendar</h1>
+          </div>
+        </div>
+
+      <div className="image contacts" onClick={(e) => getEvent(e)}>
+          <img
+            className="projects__image-config image__img contacts"
+            src="https://cdn.discordapp.com/attachments/361609071649882114/1067896339070992557/smartphone-in-hand-with-list-of-contacts-search-for-people-resume-recruiting-closing-vacancy.png"
+            alt="Imagem do projeto Recipes App. A foto foi tirada a noite, em um local escuro iluminado pelas luzes neon de cor roxa do local. É um bar, em seu topo há uma placa com o nome do bar - The District, abaixo, outra placa escrito Party Bar and Grill. As paredes do bar são feitas de vidro, acima dessas paredes existe uma placa que diz COURT CENTER "
+          />
+          <div className="image__overlay contacts">
+            <h1 className="image__title contacts">Contacts</h1>
+          </div>
+        </div>
+
         <div className="image my__portfolio">
           <img
             className="projects__image-config image__img my__portfolio"
             src={portf}
             alt="Imagem bege representando o projeto My Portfolio"
-            />
+          />
           <div
             className="image__overlay my__portfolio"
             onClick={(e) => getEvent(e)}
